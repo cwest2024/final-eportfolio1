@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "JSON-Based Message Translation Software",
+    "category": "Software Engineering Project",
+    "tools": ["Python", "JSON", "Software Design Principles"],
+    "description": "This project focused on the design and development of a software engineering solution for message translation. The application processes structured JSON message data and translates it into a readable and usable format across different systems or user groups. The project involved planning data flow, organizing application logic, and designing modular components to ensure accuracy and maintainability. This work demonstrates core software engineering principles such as structured data handling, system design, and scalable application development.",
+    "image": "/images/projects/project-1.jpg",
+    "alt": "Message translation picture",
+    "caption": "Design and development of a message translation software solution."
+  },
+  {
+    "id": 2,
+    "title": "Predictive Analysis and Forecasting Algorithm",
+    "category": "Data and Analytics Project",
+    "tools": ["Python", "Machine Learning", "Data Analysis"],
+    "description": "This project involved developing predictive analysis algorithms to identify trends, evaluate patterns, and support data-driven decision-making. The focus was on analyzing input data, designing efficient algorithm logic, and generating accurate predictive outputs. Emphasis was placed on performance, scalability, and logical structure. This project strengthened my skills in algorithm design, analytical thinking, and the application of software engineering practices to real-world problem solving.",
+    "image": "/images/projects/project-2.jpg",
+    "alt": "Predictive analysis picture",
+    "caption": "Development of predictive analysis logic and algorithm-based decision support."
+  },
+  {
+    "id": 3,
+    "title": "RESTful JSON API Development Project",
+    "category": "Backend Development Project",
+    "tools": ["Python", "RESTful APIs", "JSON"],
+    "description": "This project focused on building a RESTful JSON API to support structured communication between systems. The API was designed to handle requests and responses in a consistent and scalable format, enabling efficient data exchange. Key components included endpoint design, JSON structure planning, and ensuring maintainability and usability. This project highlights my understanding of backend development, API design principles, and the role of structured data in modern software engineering environments.",
+    "image": "/images/projects/project-3.jpg",
+    "alt": "JSON API picture",
+    "caption": "Creation of a JSON API for structured data communication between systems."
+  }
+]

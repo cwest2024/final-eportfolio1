@@ -1,0 +1,78 @@
+{
+  "summary": "Systems Engineer and military professional with 15 years of service experience across multiple technical, operational, and leadership positions. Proven ability to support complex systems, lead teams, solve problems under pressure, and contribute to mission success through discipline, adaptability, and strong technical understanding.",
+  "education": [
+    {
+      "title": "American Military University",
+      "subtitle": "Associate of Science / Database Development",
+      "meta": "2021",
+      "bullets": [
+        "Completed coursework in database systems and development",
+        "Built foundational knowledge in data structures and systems"
+      ]
+    },
+    {
+      "title": "American Military University",
+      "subtitle": "Bachelor of Science / Computer Technology",
+      "meta": "2024",
+      "bullets": [
+        "Focused on computer systems and software development",
+        "Developed technical and problem-solving skills"
+      ]
+    },
+    {
+      "title": "Florida Institute of Technology",
+      "subtitle": "Master of Science / Computer Information Systems",
+      "meta": "Expected 2026",
+      "bullets": [
+        "Graduate-level coursework in systems and information technology",
+        "Focus on advanced technical and analytical skills"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "subtitle": "United States Army",
+      "meta": "Military Role",
+      "bullets": [
+        "Designed and maintained software systems for military operations",
+        "Supported communication and data-driven decision systems",
+        "Applied structured software engineering practices"
+      ]
+    },
+    {
+      "title": "Systems Engineer",
+      "subtitle": "Current Organization",
+      "meta": "Current Role",
+      "bullets": [
+        "Support and improve systems operations",
+        "Analyze technical issues and recommend improvements",
+        "Implement solutions to improve system performance"
+      ]
+    },
+    {
+      "title": "Military Leadership Roles",
+      "subtitle": "United States Military",
+      "meta": "15 Years",
+      "bullets": [
+        "Led teams in high-pressure environments",
+        "Planned and executed mission-critical operations",
+        "Coordinated technical and operational responsibilities"
+      ]
+    }
+  ],
+  "skillsCard": {
+    "title": "Technical Skills",
+    "subtitle": "Core Strengths",
+    "meta": "Professional Skills",
+    "bullets": [
+      "Systems engineering",
+      "Software engineering",
+      "Technical troubleshooting",
+      "Operations planning",
+      "Leadership and team development",
+      "Process improvement",
+      "Communication and coordination"
+    ]
+  }
+}

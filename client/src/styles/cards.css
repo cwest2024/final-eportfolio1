@@ -1,0 +1,118 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fdfaf6;
+  color: #2c2c2c;
+  border-radius: 18px;
+  padding: 1.5rem;
+  border: 1px solid transparent;
+  background-image:
+    linear-gradient(#fdfaf6, #fdfaf6),
+    linear-gradient(135deg, #c8a96a, #e6d3a3);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+  font-size: 1.4rem;
+  color: #2c2c2c;
+  margin-bottom: 0.25rem;
+}
+
+.card-subtitle {
+  color: #7a6a4f;
+  margin-bottom: 0.4rem;
+}
+
+.card-meta {
+  color: #a08d6a;
+  font-size: 0.9rem;
+  margin-bottom: 0.7rem;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+}
+
+.card button {
+  background: #c8a96a;
+  color: #ffffff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.card button:hover {
+  background: #b8975b;
+  transform: translateY(-1px);
+}
+
+.tool-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.tool-list li {
+  background: #efe7da;
+  color: #6a5a3f;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  border: 1px solid #e2d5c0;
+}
+
+.api-card {
+  margin-top: 2rem;
+}
+
+.api-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.api-label {
+  color: #a07f45;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.api-date {
+  color: #7a6a4f;
+  font-size: 0.95rem;
+}
+
+.api-image {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid #e6dccf;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 768px) {
+  .card-image,
+  .api-image {
+    width: 100%;
+  }
+}

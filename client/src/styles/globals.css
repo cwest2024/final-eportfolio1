@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, serif;
+  background: #f6f2ec;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #ffffff;
+  border-bottom: 1px solid #e6dccf;
+}
+
+.header-wrap,
+.footer-wrap,
+main {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.header-wrap {
+  padding: 1rem 0;
+}
+
+.site-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c2c2c;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #c8a96a;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+
+nav a:hover {
+  background: #b8975b;
+  transform: translateY(-1px);
+}
+
+main {
+  padding: 2rem 0 3rem;
+}
+
+.page-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-label {
+  margin: 1.5rem 0 1rem;
+  font-size: 1.3rem;
+}
+
+.section-intro {
+  margin-bottom: 1.5rem;
+  color: #5f5240;
+}
+
+.error-text {
+  color: #8a1f1f;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem 0 3rem;
+}
+
+.hero-image-wrap {
+  width: 100%;
+}
+
+.hero-image {
+  width: 100%;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid #e6dccf;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.hero-content h2 {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #2c2c2c;
+}
+
+.hero-content p {
+  margin-bottom: 1rem;
+}
+
+.hero-eyebrow {
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a07f45;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+footer {
+  background: #ffffff;
+  border-top: 1px solid #e6dccf;
+  padding: 1.5rem 0;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.footer-nav a {
+  color: #2c2c2c;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  nav ul,
+  .footer-nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    width: 100%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content h2 {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "final-eportfolio",
+  "version": "1.0.0",
+  "description": "Final MERN stack ePortfolio with React, Express, MongoDB, and deployment configuration.",
+  "private": true,
+  "scripts": {
+    "install:all": "cd client && npm install && cd ../server && npm install",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm start",
+    "seed": "node scripts/seed.js",
+    "build": "cd client && npm run build",
+    "test": "cd client && npm test && cd ../server && npm test"
+  },
+  "author": "Collin West",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.6.1"
+  }
+}

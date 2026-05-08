@@ -1,0 +1,71 @@
+/* Main form card */
+.contact-form {
+  background: #fdfaf6;
+  border: 1px solid #e6d3a3;
+  border-radius: 18px;
+  padding: 1.5rem;
+  max-width: 700px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* Each label/input group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+/* Form labels */
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #2c2c2c;
+}
+
+/* Text inputs and textarea */
+.form-group input,
+.form-group textarea {
+  border: 1px solid #d7c7ad;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* Accessibility focus style */
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 2px solid #c8a96a;
+  border-color: #c8a96a;
+}
+
+/* Submit button */
+.contact-form button {
+  background: #c8a96a;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Button hover effect */
+.contact-form button:hover {
+  background: #b8975b;
+}
+
+/* Success message */
+.form-status {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #416b3a;
+}
+
+/* Validation errors */
+.form-errors {
+  margin-top: 1rem;
+  color: #8a1f1f;
+  font-weight: 600;
+  padding-left: 1.25rem;
+}
