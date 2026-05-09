@@ -1,148 +1,123 @@
-# Final MERN ePortfolio
+# Final MERN Stack ePortfolio
 
 ## Overview
 
-This final project demonstrates a complete MERN stack ePortfolio.
+This project is a full-stack MERN ePortfolio application developed using:
 
-The application includes:
+- MongoDB
+- Express.js
+- React
+- Node.js
 
-- React frontend built with Vite
-- Node.js and Express backend
-- MongoDB database
-- Mongoose schema and validation
-- CRUD routes for project data
-- Dynamic project cards
-- Basic client and server tests
-- Deployment configuration for Render
+The application demonstrates full-stack web development concepts including frontend React components, RESTful API development, MongoDB database integration, environment variable configuration, responsive design, and deployment using Render.
 
-## Live Links
+---
 
-Deployed Frontend URL:
+## Features
 
-Add your live frontend link here.
+- Responsive React frontend
+- Express and Node.js backend API
+- MongoDB Atlas database integration
+- Dynamic project cards loaded from MongoDB
+- Contact form with frontend and backend validation
+- RESTful API routes
+- Environment variable security
+- Deployment-ready project structure
 
-Deployed Backend API URL:
-
-Add your live backend link here.
-
-GitHub Repository:
-
-Add your GitHub link here.
-
-Demo Video:
-
-Add your demo video link here.
-
-## Folder Structure
-
-final-eportfolio/
-├── README.md
-├── .gitignore
-├── package.json
-├── docs/
-│   └── deployment-notes.md
-├── client/
-├── server/
-├── scripts/
-│   └── seed.js
-├── .env.example
-└── render.yaml
+---
 
 ## Technologies Used
 
 ### Frontend
-
 - React
 - Vite
 - Axios
-- CSS
+- CSS3
 
 ### Backend
-
 - Node.js
-- Express
+- Express.js
 - MongoDB
 - Mongoose
-- CORS
 - dotenv
+- cors
 
-### Testing
+### Deployment
+- Render
+- GitHub
 
-- Vitest
-- Jest
+---
 
-## Environment Variables
+## Live Deployment
 
-### Server
+### Frontend
+(https://final-eportfolio-client.onrender.com)
 
-Create a `.env` file inside the server folder:
+### Backend API
+(https://final-eportfolio-api.onrender.com)
 
-PORT=3001
-MONGO_URI=your_mongodb_connection_string_here
-CLIENT_URL=http://localhost:5173
+### GitHub Repository
+(https://github.com/cwest2024/final-eportfolio1.git)
 
-### Client
-
-Create a `.env` file inside the client folder:
-
-VITE_API_BASE_URL=http://localhost:3001
-
-## Local Installation
-
-Install all dependencies:
-
-npm run install:all
-
-## Seed Database
-
-Run:
-
-npm run seed
-
-## Run Locally
-
-Start backend:
-
-npm run server
-
-Start frontend:
-
-npm run client
+---
 
 ## API Routes
 
-### Health
+### Health Check
+```text
+/api/health
+```
 
-GET /api/health
+### Get All Projects
+```text
+/api/projects
+```
 
-### Projects
+### Submit Contact Form
+```text
+/api/contact
+```
 
-GET /api/projects
+---
 
-GET /api/projects/:id
+## Local Installation
 
-POST /api/projects
+### Clone Repository
 
-PUT /api/projects/:id
+```bash
+git clone YOUR_GITHUB_REPO_URL
+```
 
-DELETE /api/projects/:id
+### Install Frontend Dependencies
 
-## Testing
+```bash
+cd client
+npm install
+```
 
-Run:
+### Install Backend Dependencies
 
-npm test
+```bash
+cd server
+npm install
+```
 
-## Deployment
+### Start Backend
 
-This project is configured for Render.
+```bash
+npm start
+```
 
-The backend should be deployed as a Web Service.
+### Start Frontend
 
-The frontend should be deployed as a Static Site.
+```bash
+npm run dev
+```
 
-Environment variables are configured in Render and are not committed to GitHub.
+---
 
-## Reflection
+## Author
 
-This final project demonstrates how the frontend, backend, and database work together in a MERN stack application. A major learning point was moving from static data to a live MongoDB database while keeping the frontend dynamic, responsive, and deployable.
+Collin West
+
+Systems Engineer | MERN Stack Development Student
